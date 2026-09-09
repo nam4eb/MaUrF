@@ -1,0 +1,11 @@
+{
+  "participants": [{"name":"Demo Analyst"},{"name":"Nguyễn Ánh"}],
+  "messages": [
+    {"sender_name":"Nguyễn Ánh","timestamp_ms":1788364800000,"content":"Chào bạn ❤️","type":"Generic"},
+    {"sender_name":"Demo Analyst","timestamp_ms":1788365100000,"content":"Chào Ánh 😂","type":"Generic","reactions":[{"reaction":"👍","actor":"Nguyễn Ánh"}]},
+    {"sender_name":"Nguyễn Ánh","timestamp_ms":1788397200000,"photos":[{"uri":"messages/photo.jpg"}],"type":"Generic"}
+  ],
+  "title":"Nguyễn Ánh",
+  "is_still_participant":true,
+  "thread_path":"inbox/nguyen_anh"
+}
