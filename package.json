@@ -3,7 +3,10 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "data:sync": "node scripts/facebook-local.mjs",
+        "data:serve": "node scripts/facebook-local-server.mjs",
+        "data:test": "node --test tests/local-facebook.test.mjs tests/local-facebook-filters.test.mjs"
     },
     "devDependencies": {
         "axios": "^1.6.4",

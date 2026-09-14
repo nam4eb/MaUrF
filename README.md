@@ -2,6 +2,8 @@
 
 Privacy-first analytics for Facebook/Messenger data that a user exports from their own Meta account. It is not a crawler and never logs into Facebook.
 
+For a dependency-free local JSON folder sync and Vietnamese data dashboard using Node.js 24+, see [local Facebook data](docs/local-facebook-data.md). This companion SQLite workspace runs independently of the Laravel application.
+
 ## Setup
 
 Requires PHP 8.2+, Composer and Node 20+. PostgreSQL and Redis are recommended; SQLite and the synchronous queue work locally.
